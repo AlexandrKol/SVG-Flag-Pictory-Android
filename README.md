@@ -17,31 +17,31 @@ dependencies {
  FlagView flv = new FlagView(getApplicationContext());
  
  option 
-*   flv.setTypePictory("circle");
+   flv.setTypePictory("circle");
  or
-*  flv.setTypePictory("rect");
-*  flv.setRadiusStroke("20%");
+   flv.setTypePictory("rect");
+   flv.setRadiusStroke("20%");
   
-*   flv.setLoadFlag(Locale.getDefault().getCountry().toLowerCase());
+    flv.setLoadFlag(Locale.getDefault().getCountry().toLowerCase());
    
    or 
- *  listcounry - getAliases or getValues
- * flv.setLoadFlag(listcounry[variant]);
+   listcounry - getAliases or getValues
+  flv.setLoadFlag(listcounry[variant]);
   
   ### xml
   
- * <a.b.svgflagsdrawable.FlagView
-*        android:layout_width="50dp"
-*        android:layout_height="50dp"
-*        app:type_pictory="rect"
-*        app:Radius_border="20%"
-*        android:id="@+id/flag"
-*        />
+  <a.b.svgflagsdrawable.FlagView
+         android:layout_width="50dp"
+        android:layout_height="50dp"
+         app:type_pictory="rect"
+        app:Radius_border="20%"
+        android:id="@+id/flag"
+        />
         
   ## svg
   
-*  setLoadSVG(file) ;
-* setLoadSVG(InputStream) ;
+  setLoadSVG(file) ;
+   setLoadSVG(InputStream) ;
   
   
   
